@@ -89,7 +89,9 @@
         <p>Overall, flexing is an important tool for managing changes in scope in Agile projects. It allows the team to adapt to changing requirements and deliver a high-quality product or feature within the original timeframe and budget.</p>
         <br>
         <h3>First plan</h3>
-        1. Create Master Story List
+        <p>
+            1. Create Master Story List
+        </p>
             * The master story list is a collection of user stories, or features, your customer is going to want to see in their software.
         <p>2. Make an assessment of problem</p>
         <p>3. Prioritize</p>
