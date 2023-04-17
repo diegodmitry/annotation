@@ -89,12 +89,82 @@
         <p>Overall, flexing is an important tool for managing changes in scope in Agile projects. It allows the team to adapt to changing requirements and deliver a high-quality product or feature within the original timeframe and budget.</p>
         <br>
         <h3>First plan</h3>
-        <p>
-            1. Create Master Story List
-        </p>
-            * The master story list is a collection of user stories, or features, your customer is going to want to see in their software.
-        <p>2. Make an assessment of problem</p>
-        <p>3. Prioritize</p>
-        <p>4. Estimate the team velocity</p>
-        <p>5. Pick some dates</p>
+        <details>
+            <summary>
+                1. Create Master Story List
+            </summary>
+            <p>
+                Obs: The master story list is a collection of user stories, or features, your customer is going to want to see in their software.
+            </p>
+            <img src="./master_story_list.png" />
+            <br>
+            <br>
+            <p>A release is a logical grouping of stories that make sense to your customer.</p>
+            <img src="./release.png" width="400px"/>
+            <p>In the Agile manifesto, the principle of simplicity is stated as:</p>
+            <p>'Simplicity: the art of maximizing the amount of work not done -- is essential.'</p>
+            <p>the principle of simplicity in Agile methodologies is about focusing on the essentials, reducing waste, and keeping things simple. By following this principle, teams can deliver high-quality software that meets the needs of the customer, while avoiding unnecessary complexity and waste.</p>
+        </details>
+        <details>
+            <summary>
+                2. Make an Assessment of Problem
+            </summary>
+        </details>
+        <details>
+            <summary>
+                3. Prioritize
+            </summary>
+        </details>
+        <details>
+            <summary>
+                4. Estimate the team velocity
+            </summary>
+            <ol>
+                <li>Be Conservative</li>
+                <li>Remind everyone this is a guess</li>
+                <li>Start measuring from first day</li>
+            </ol>
+        </details>
+        <details>
+            <summary>
+                5. Pick Some Dates
+            </summary>
+            <ol>
+                <li>Delivery by date</li>
+                <li>Delivery by feature set</li>
+            </ol>
+        </details>
     </details>
+4. <details>
+        <summary>Iteration</summary>
+        <details>
+            <summary>Steps to turn stories into software</summary>
+            <ol>
+                <li>Making the work ready(Analysis and Desing)</li>
+                <li>Doing the work(Developement)</li>
+                <li>Checking the work(Testing)</li>
+            </ol>
+        </details>
+    </details>
+5. <details>
+    <summary>Communication Plans</summary>
+    <p>How to create your own communication plan?</p>
+    <ul>
+        <li>Setting Expectations</li>
+        <li>Getting Feedback</li>
+    </ul>
+    <br>
+    <p>Good Habits</p>
+    <ul>
+        <li>Meet Regularly</li>
+        <li>Review we are doing</li>
+    </ul>
+    <br>
+    <p>Four things to do each Iteration</p>
+    <ol>
+        <li>Make sure the work is ready</li>
+        <li>Feedback on last iterations stories</li>
+        <li>Plan next iteration work</li>
+        <li>Look for areas of improvement</li>
+    </ol>
+</details>
