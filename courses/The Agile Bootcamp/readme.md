@@ -167,4 +167,61 @@
         <li>Plan next iteration work</li>
         <li>Look for areas of improvement</li>
     </ol>
-</details>
+    </details>
+6. <details>
+    <summary>Software Engineering</summary>
+        <details>
+            <summary>Unit Test</summary>
+            <p>Small tests developers write everyday to prodve their code is working.</p>
+            <br>
+            <p>The Benefits of Unit Testing are Huge</p>
+            <ol>
+                <li>Give instant feedback</li>
+                <li>Lower cost of regression testing</li>
+                <li>Faster debugging</li>
+                <li>Deploy with confidence</li>
+            </ol>
+        </details>
+        <details>
+            <summary>Refactoring</summary>
+            <p>Practice of making small incremental improvements to the software without changing the overall external behavior.</p>
+            <br>
+            <p>When I need reafactoring?</p>
+            <p>Technical Debt</p>
+            <ol>
+                <li>Spaghetti code</li>
+                <li>Excess complexity</li>
+                <li>Duplication</li>
+            </ol>
+            <br>
+            <p>Pros Refactoring</p>
+            <ol>
+                <li>Communicate clearly</li>
+                <li>Easy to understand</li>
+                <li>Easy to change</li>
+            </ol>
+            <br>
+            <p>Continuos attetion to technical excellence and good design enhances agility.</p>
+        </details>
+        <details>
+            <summary>Test-Driven Development</summary>
+            <p>...</p>
+            <br>
+            <p>When I need reafactoring?</p>
+            <p>Technical Debt</p>
+            <ol>
+                <li>Spaghetti code</li>
+                <li>Excess complexity</li>
+                <li>Duplication</li>
+            </ol>
+            <br>
+            <p>Pros Refactoring</p>
+            <ol>
+                <li>Communicate clearly</li>
+                <li>Easy to understand</li>
+                <li>Easy to change</li>
+            </ol>
+            <br>
+            <p>Continuos attetion to technical excellence and good design enhances agility.</p>
+        </details>
+    </details>
