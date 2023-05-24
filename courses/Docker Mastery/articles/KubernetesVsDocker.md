@@ -4,7 +4,7 @@
 
 Versus isn’t the right question. Using these tools isn’t an either-or equation. Let's break down their origin, purpose, and how to use the right tool for the job.
 
-![Kubernetes vs Docker](/images/kubernetes-vs-docker-1-1.png)
+![Kubernetes vs Docker](../images/kubernetes-vs-docker-1-1.png)
 Consider these definitions:
 - **Docker Engine is a “container runtime.”** It knows how to run and manage containers on a single operating system host. You must control each host separately.
 - **Kubernetes (K8s) is an open-source “container orchestration platform” (AKA orchestrator).** It knows how to manage containers across many operating system hosts, which in turn, run their own container runtime.
@@ -17,7 +17,7 @@ The more I understood about its features, the more I wanted to use Docker everyw
 
 The concept of containerized applications – using containers to isolate many apps from each other on a single server – has existed for decades. Yet, there wasn’t an easy-to-use tool that focused on the full application lifecycle until Docker.
 
-![Traditional Servers vs Container Apps](/images/TraditionalServers_vs_ContainerApps.png)
+![Traditional Servers vs Container Apps](../images/TraditionalServers_vs_ContainerApps.png)
 
 The team that created Docker took complex tools and wrapped them in a command-line interface (CLI) that mere mortals could understand.
 
@@ -46,7 +46,7 @@ This multi-server problem is what the Kubernetes founders wanted to solve. They 
 
 **Kubernetes’ main job is to tell Docker what to do, yet it now provides an increasing number of related duties.** Other built-in features include container health checks, auto-replacing failed apps, automating web proxy configurations, managing network security policies, and even auto-provisioning external storage.
 
-![Traditional Servers vs Container Apps](/images/docker-vs-kubernetes.png)
+![Traditional Servers vs Container Apps](../images/docker-vs-kubernetes.png)
 
 ## Using Docker with Kubernetes
 Now that you know where these tools come from and what problems they solve, the question is: Should you use them together?
