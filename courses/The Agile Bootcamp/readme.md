@@ -205,23 +205,26 @@
         </details>
         <details>
             <summary>Test-Driven Development</summary>
-            <p>...</p>
+            <p>It is a software development methodology in which tests are written before writing the actual code. The idea behind TDD is to ensure that the code being written meets the requirements and works as expected by writing tests for each small piece of functionality before implementing it.</p>
+            <p>In TDD, the development process starts with writing a failing test case that describes the desired behavior of the code. Once the test is written, the developer writes the code to make the test pass, and then refactors the code to make it cleaner and more maintainable. The process is repeated for each new piece of functionality that needs to be added.</p>
+            <p>TDD is a popular approach in Agile software development as it helps to ensure that the code is always tested and working as expected. It also helps to catch bugs early in the development cycle, which can save time and effort in the long run.</p>
+            <img src="./tdd.png" alt="tdd image" width="200px">
             <br>
-            <p>When I need reafactoring?</p>
-            <p>Technical Debt</p>
+            <br>
+            <p>Few rules of TDD</p>
             <ol>
-                <li>Spaghetti code</li>
-                <li>Excess complexity</li>
-                <li>Duplication</li>
+                <li>Don't write any new code until you first have a failing test. KISS (Keep it Simple Stupid)</li>
+                <li>Test everithing that could possible break.</li>
             </ol>
-            <br>
-            <p>Pros Refactoring</p>
-            <ol>
-                <li>Communicate clearly</li>
-                <li>Easy to understand</li>
-                <li>Easy to change</li>
-            </ol>
-            <br>
-            <p>Continuos attetion to technical excellence and good design enhances agility.</p>
         </details>
+        <details>
+            <summary>Continuous Integration</summary>
+            <p>Continuous Integration (CI) is a software development practice where developers regularly merge their code changes into a central repository, which is then built and tested automatically. The goal of CI is to catch integration problems as early as possible in the development process, so that they can be addressed quickly and easily.</p>
+            <p>With CI, each time a developer makes changes to the code, those changes are automatically merged into the central code repository. The CI system then automatically builds and tests the code to check for any errors or problems. If any issues are found, the developer is alerted immediately so that they can fix them before the code is merged into the main codebase.</p>
+            <p>By catching issues early, CI helps developers to deliver higher-quality software more quickly and efficiently.</p>
+        </details>
+    </details>
+7. <details>
+    <summary>Tip</summary>
+    <p>Software for Agile Project Management and Visualization: Jira and Trello </p>
     </details>
