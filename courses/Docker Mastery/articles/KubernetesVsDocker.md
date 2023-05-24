@@ -5,6 +5,7 @@
 Versus isn’t the right question. Using these tools isn’t an either-or equation. Let's break down their origin, purpose, and how to use the right tool for the job.
 
 ![Kubernetes vs Docker](../images/kubernetes-vs-docker-1-1.png)
+
 Consider these definitions:
 - **Docker Engine is a “container runtime.”** It knows how to run and manage containers on a single operating system host. You must control each host separately.
 - **Kubernetes (K8s) is an open-source “container orchestration platform” (AKA orchestrator).** It knows how to manage containers across many operating system hosts, which in turn, run their own container runtime.
