@@ -111,19 +111,23 @@ docker container run -d --name mysql -e MYSQL_RANDOM_ROOT_PASSWORD=true mysql
 
 docker container ls
 
-docker container top mysql
+docker container top mysql (process list in one container)
 
 docker container top nginx
 
-docker container inspect mysql
+docker container inspect mysql (details of one container config)
 
 docker container stats --help
 
-docker container stats
+docker container stats (performance stats for all containers)
 
 docker container ls
 
 ## Getting a Shell Inside Containers: No Need for SSH
+
+docker container run -it (start new container interactively)
+
+docker container exec -it (run additional command in existing container)
 
 docker container run -help
 
