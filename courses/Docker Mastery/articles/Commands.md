@@ -171,13 +171,13 @@ docker container inspect --format '{{ .NetworkSettings.IPAddress }}' webhost
 
 ## Docker Networks: CLI Management of Virtual Networks
 
+docker network ls (show networks)
+
+docker network inspect bridge (inspect a network)
+
 docker network ls
 
-docker network inspect bridge
-
-docker network ls
-
-docker network create my_app_net
+docker network create my_app_net (create a network)
 
 docker network ls
 
@@ -189,11 +189,11 @@ docker network inspect my_app_net
 
 docker network --help
 
-docker network connect
+docker network connect (attach a network to container)
 
 docker container inspect
 
-docker container disconnect
+docker container disconnect (detach a network from container)
 
 docker container inspect
 
@@ -240,3 +240,69 @@ docker container run --rm --net dude centos curl -s search:9200
 docker container ls
 
 docker container rm -f
+
+## Persistent Data: Data Volumes
+
+docker pull mysql
+
+docker image inspect mysql
+
+docker container run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=True mysql
+
+docker container ls
+
+docker container inspect mysql
+
+docker volume ls
+
+docker volume inspect TAB COMPLETION
+
+docker container run -d --name2 mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=True mysql
+
+docker volume ls
+
+docker container stop mysql
+
+docker container stop mysql2
+
+docker container ls
+
+docker container ls -a
+
+docker volume ls
+
+docker container rm mysql mysql2
+
+docker volume ls
+
+docker container run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=True -v mysql-db:/var/lib/mysql mysql
+
+docker volume ls
+
+docker volume inspect mysql-db
+
+docker container rm -f mysql
+
+docker container run -d --name mysql3 -e MYSQL_ALLOW_EMPTY_PASSWORD=True -v mysql-db:/var/lib/mysql mysql
+
+docker volume ls
+
+docker container inspect mysql3
+
+docker volume create --help
+
+## Persistent Data: Bind Mounting
+
+cd dockerfile-sample-2
+
+pcat Dockerfile
+
+docker container run -d --name nginx -p 80:80 -v $(pwd):/usr/share/nginx/html nginx
+
+docker container run -d --name nginx2 -p 8080:80 nginx
+
+docker container exec -it nginx bash
+
+## Assignment Answers: Edit Code Running In Containers With Bind Mounts
+
+docker run -p 80:4000 -v $(pwd):/site bretfisher/jekyll-serve
