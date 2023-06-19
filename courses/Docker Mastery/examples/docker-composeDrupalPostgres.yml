@@ -1,0 +1,23 @@
+version: '3.1' # Docker Compose version
+
+services: # section is where you define the services (containers)
+  drupal:
+    image: drupal:8-apache # Docker image
+    ports:
+    - 8080:80 # link port 8080 host machine to port 80 drupal container
+    volumes: # volumes to mount, persistent storage
+      - /var/www/html/modules
+      - /var/www/html/profiles
+      - /var/www/html/themes
+      - /var/www/html/sites
+    restart: always # if drupal crashes, ensures that the container automatically restarts
+    depends_on: # ensure that drupal services start after postgres
+      - postgres
+
+  postgres:
+    image: postgres:10
+    environment:
+      POSTGRES_PASSWORD: example
+    restart: always
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
